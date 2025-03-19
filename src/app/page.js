@@ -67,7 +67,7 @@ export default function CooldownTracker() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <h1 className="text-4xl font-extrabold mb-6 text-center text-purple-400">Cooldown Tracker</h1>
+      <h1 className="text-4xl font-extrabold mb-6 text-center "><label className='text-white'>TRAKUL</label><label className='text-red-500'>j</label>  </h1>
       <div className="flex justify-center mb-6">
         <button className="px-6 py-3 bg-green-500 text-lg font-bold rounded-lg hover:bg-green-600 transition" onClick={addStore}>+ Add Store</button>
       </div>
